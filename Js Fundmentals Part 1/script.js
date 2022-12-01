@@ -76,18 +76,26 @@
 // }
 
 
-const age = '18';
-if (age === 18) console.log('You just become an adult(Strict)');
+// const age = '18';
+// if (age === 18) console.log('You just become an adult(Strict)');
 
-if (age == 18) console.log('You just become an adult(loose)');
+// if (age == 18) console.log('You just become an adult(loose)');
 
-const favorite = prompt("WHat's your favorite number?");
-console.log(favorite);
-console.log(typeof favorite);
+// const favorite = prompt("WHat's your favorite number?");
+// console.log(favorite);
+// console.log(typeof favorite);
 
-if (favorite == 22) {
-    console.log('22 is your favorite number');
-}
+// if (favorite == 22) {
+//     console.log('22 is your favorite number');
+// }
+
+
+// Coding Challenge #4
+
+// const bill = 430;
+// const tip = bill <= 300 && bill >= 50 ? bill * 0.15 :
+//     bill * 0.2;
+// console.log(`This bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
 
 
