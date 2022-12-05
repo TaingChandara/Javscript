@@ -123,6 +123,103 @@
 // console.log(bills, tips, totals);
 
 
+// For Loop
+
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Welcome to JTRB ${rep}🤞`);
+// }
+
+// Loop Array,continue,breaking
+
+// const jonas = [
+//     'jonas',
+//     'Schmedtman',
+//     2022 - 1997,
+//     'teacher',
+//     ['Michel', 'Peter', 'Steven',],
+//     true
+// ];
+// const types = [];
+
+// for (let i = 0; i < jonas.length; i++) {
+//     // Reading for jonas
+//     console.log(jonas[i], typeof jonas[i]);
+
+//     // filling type of Array\type [i]= typeof jonas[i];
+//     types.push(typeof jonas[i]);
+// }
+
+// console.log(types);
+
+// const years = [1997, 1995, 2000, 2004];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//     ages.push(2022 - years[i]);
+// }
+// console.log(ages);
+
+// // continue and breaking
+// console.log('---ONLY STRING---')
+// for (let i = 0; i < jonas.length; i++) {
+//     if (typeof jonas[i] !== 'string') continue;
+
+//     console.log(jonas[i], typeof jonas[i]);
+// }
+
+// console.log('---ONLY STRING---')
+// for (let i = 0; i < jonas.length; i++) {
+//     if (typeof jonas[i] !== 'string') continue;
+
+//     console.log(jonas[i], typeof jonas[i]);
+// }
+
+
+// while loop
+
+// let rep = 1;
+// while (rep <= 10) {
+//     rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+
+// while (dice !== 6) {
+//     console.log(`You rolled a ${dice}`);
+//     dice = Math.trunc(Math.random() * 6) + 1;
+//     if (dice === 6) console.log('Loop is about to end....');
+// }
+
+
+// // Coding Challenge #4
+
+// const calcTip = function (bill) {
+//     return bills >= 50 && bills <= 300 ? bills * 0.15 :
+//         bill * 0.2;
+// }
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+
+// for (let i = 0; i < bills.length; i++) {
+//     const tip = calcTip(bills[i]);
+//     tips.push(tip);
+//     totals.push(tip + bills[i]);
+// }
+// console.log(bills, tips, totals);
+
+// const calcAverage = function (arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i];
+
+//     }
+//     return sum / arr.length;
+
+// }
+// console.log(calcAverage([2, 3, 6]));
+// console.log(calcAverage(totals));
+// console.log(calcAverage(tips));
 
 
 
